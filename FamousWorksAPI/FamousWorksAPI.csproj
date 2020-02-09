@@ -263,35 +263,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202001192229492_CorrectIDNames.cs" />
-    <Compile Include="Migrations\202001192229492_CorrectIDNames.Designer.cs">
-      <DependentUpon>202001192229492_CorrectIDNames.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001200631301_AddUniqueField.cs" />
-    <Compile Include="Migrations\202001200631301_AddUniqueField.Designer.cs">
-      <DependentUpon>202001200631301_AddUniqueField.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001200719319_revertChanges.cs" />
-    <Compile Include="Migrations\202001200719319_revertChanges.Designer.cs">
-      <DependentUpon>202001200719319_revertChanges.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001200721472_revertChangeAgain.cs" />
-    <Compile Include="Migrations\202001200721472_revertChangeAgain.Designer.cs">
-      <DependentUpon>202001200721472_revertChangeAgain.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001200724427_addUniqueConstraint.cs" />
-    <Compile Include="Migrations\202001200724427_addUniqueConstraint.Designer.cs">
-      <DependentUpon>202001200724427_addUniqueConstraint.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001200727314_correctUniqueConstraint.cs" />
-    <Compile Include="Migrations\202001200727314_correctUniqueConstraint.Designer.cs">
-      <DependentUpon>202001200727314_correctUniqueConstraint.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202001200804024_anotherReset.cs" />
-    <Compile Include="Migrations\202001200804024_anotherReset.Designer.cs">
-      <DependentUpon>202001200804024_anotherReset.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -420,29 +391,6 @@
       <Project>{0D442805-1214-44A5-B6D9-7B5A12907DCF}</Project>
       <Name>DatabaseStructure</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202001192229492_CorrectIDNames.resx">
-      <DependentUpon>202001192229492_CorrectIDNames.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001200631301_AddUniqueField.resx">
-      <DependentUpon>202001200631301_AddUniqueField.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001200719319_revertChanges.resx">
-      <DependentUpon>202001200719319_revertChanges.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001200721472_revertChangeAgain.resx">
-      <DependentUpon>202001200721472_revertChangeAgain.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001200724427_addUniqueConstraint.resx">
-      <DependentUpon>202001200724427_addUniqueConstraint.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001200727314_correctUniqueConstraint.resx">
-      <DependentUpon>202001200727314_correctUniqueConstraint.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202001200804024_anotherReset.resx">
-      <DependentUpon>202001200804024_anotherReset.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

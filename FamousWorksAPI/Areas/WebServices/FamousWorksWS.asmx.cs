@@ -13,14 +13,14 @@ using WorksAPI.DTOs;
 namespace FamousWorksAPI.Areas.WebServices
 {
     /// <summary>
-    /// Summary description for FamopusWorksWS
+    /// Summary description for FamousWorksWS
     /// </summary>
     [WebService(Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
     // [System.Web.Script.Services.ScriptService]
-    public class FamopusWorksWS : System.Web.Services.WebService
+    public class FamousWorksWS : System.Web.Services.WebService
     {
         private readonly ComposerService composerService;
         private readonly WorkService workService;
