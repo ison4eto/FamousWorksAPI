@@ -20,6 +20,14 @@ namespace FamousWorksAPI.DTOs
         {
         }
 
+        public ComposerDto(int id, string firstName, string lastName, string country)
+        {
+            Id = id;
+            FirstName = firstName;
+            LastName = lastName;
+            Country = country;
+        }
+
         public ComposerDto(Composer composer)
         {
             this.Id = composer.Id;
