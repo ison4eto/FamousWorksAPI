@@ -6,6 +6,7 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -17,11 +18,20 @@
                     <span class="icon-bar"></span>
                 </button>
                 @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <li><a href="/Areas/WebServices/FamousWorksWS.asmx" target="_blank">FamousWorksWS.asmx</a></li>
+                <li><a href="/swagger" target="_blank">swagger</a></li>
+                <li><a href="/swagger/docs/v1" target="_blank">swagger.json</a></li>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Home", "Index", "Home", new { area = "" }, null)</li>
+                    <li><a href="/Areas/WebServices/FamousWorksWS.asmx" target="_blank">FamousWorksWS.asmx</a></li>
+                    <li><a href="/swagger" target="_blank">swagger</a></li>
+                    <li><a href="/swagger/docs/v1" target="_blank">swagger.json</a></li>
                     <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+                    <li><a href="/Areas/WebServices/FamousWorksWS.asmx" target="_blank">FamousWorksWS.asmx</a></li>
+                    <li><a href="/swagger" target="_blank">swagger</a></li>
+                    <li><a href="/swagger/docs/v1" target="_blank">swagger.json</a></li>
                 </ul>
             </div>
         </div>

@@ -243,8 +243,8 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
-    <Compile Include="Areas\WebServices\FamopusWorksWS.asmx.cs">
-      <DependentUpon>FamopusWorksWS.asmx</DependentUpon>
+    <Compile Include="Areas\WebServices\FamousWorksWS.asmx.cs">
+      <DependentUpon>FamousWorksWS.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Areas\WebServices\ResponseMetaData.cs" />
@@ -273,7 +273,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
-    <Content Include="Areas\WebServices\FamopusWorksWS.asmx" />
+    <Content Include="Areas\WebServices\FamousWorksWS.asmx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
