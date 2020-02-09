@@ -141,7 +141,7 @@ namespace FamousWorksAPI.Areas.WebServices
                 Message = "Not found";
                 ErrorCode = 404;
             }
-            return new WSResponse(Message, ErrorCode, new EraDto(work));
+            return new WSResponse(Message, ErrorCode, new WorkDto(work));
         }
 
         private void BadRequest()

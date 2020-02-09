@@ -6,6 +6,7 @@ using System.Web;
 
 namespace FamousWorksAPI.DTOs
 {
+    [Serializable]
     public class EraDto
     {
         public int Id { get; set; }

@@ -6,6 +6,7 @@ using System.Web;
 
 namespace WorksAPI.DTOs
 {
+    [Serializable]
     public class WorkDto
     {
         public int ID { get; set; }
